@@ -1,0 +1,89 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{
+    font-family: Arial;
+    background-color: rgb(214, 214, 214);
+}
+main{
+    background-color: red;
+    /* display: flex; */
+    
+}
+#glahub{
+    color: #4CAF50;
+    font-weight: 100;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 5px;
+}
+input{
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+input:focus{
+    outline: 1px solid #4CAF50;
+    border: 1px solid #4CAF50;
+
+}
+#loginbtn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#loginbtn:hover{
+    background-color: #44b848;
+    cursor: pointer;
+}
+#newaccount{
+    background-color: #008CBA;;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: fit-content;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#newaccount:hover{
+    background-color: #0496c7;
+    cursor: pointer;
+}
+.loginform{
+    /* display: flex; */
+    margin: auto;
+    background-color: rgb(230, 222, 222);
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #4CAF50;
+    align-items: center;
+    text-align: center;
+}
+#forgotpassword{
+    margin: auto;
+    width: fit-content;
+    text-decoration: none;
+    display: block;
+    color: #4CAF50;
+    font-weight: 400;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 10px;
+}
+#forgotpassword:hover{
+    border-bottom: 1px solid #4CAF50;
+}
+hr{
+    margin: 10px;
+}
