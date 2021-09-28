@@ -1,11 +1,14 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 body{
     font-family: Arial;
-    background-color: white;
+    background-color: rgb(240, 240, 240);
 }
 main{
+    margin-top: 200px;
+    /* height: 100vh; */
     /* background-color: red; */
     /* display: flex; */
+    border: 2px solid green;
     
 }
 #glahub{
@@ -21,6 +24,7 @@ input{
     border-radius: 5px;
     padding: 5px;
     width: 100%;
+    caret-color: #4CAF50;
 }
 input:focus{
     outline: 1px solid #4CAF50;
@@ -64,12 +68,13 @@ input:focus{
 .loginform{
     /* display: flex; */
     margin: auto;
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     padding: 10px;
     width: 300px;
     /* border: 2px solid #4CAF50; */
     align-items: center;
     text-align: center;
+    border-radius: 7px;
 }
 #forgotpassword{
     margin: auto;
